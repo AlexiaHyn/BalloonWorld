@@ -32,8 +32,8 @@ public class Spawning : MonoBehaviour
     }
 
     void Spawn() {
-        Vector3 NewPosition = new Vector3(Random.Range(-30f, 30f), Random.Range(1f, 30f), Random.Range(-30f, 30f));
-        float RandomScale = Random.Range(2.0f, 3.5f);
+        Vector3 NewPosition = new Vector3(Random.Range(-25f, 25f), Random.Range(1f, 25f), Random.Range(-25f, 25f));
+        float RandomScale = Random.Range(2.5f, 3.5f);
         GameObject obj = (GameObject)Instantiate(BalloonPrefab, transform.position + NewPosition, Quaternion.identity);
         obj.GetComponent<Rigidbody>().velocity = new Vector3(Random.Range(-0.5f, 0.5f), Random.Range(-0.5f, 0.5f), Random.Range(-0.5f, 0.5f));
         obj.transform.localScale = new Vector3(RandomScale, RandomScale, RandomScale);
