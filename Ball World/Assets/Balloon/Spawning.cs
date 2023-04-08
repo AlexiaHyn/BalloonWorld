@@ -7,13 +7,14 @@ public class Spawning : MonoBehaviour
     public GameObject BalloonPrefab;
 
     private int total = 250;
+    private int id = 0;
 
     private float TimeRemaining = 10f;
 
     // Start is called before the first frame update
     void Start()
     {
-        for (int i = 0; i < 250; i++) {
+        for (int i = 0; i < 100; i++) {
             Spawn();
         }
     }
@@ -24,18 +25,20 @@ public class Spawning : MonoBehaviour
         TimeRemaining -= Time.deltaTime;
         if (TimeRemaining < 0) {
             TimeRemaining = 10f;
-            if (total < 250) {
+            if (total < 100) {
                 Spawn();
             }
         }
     }
 
     void Spawn() {
-        Vector3 NewPosition = new Vector3(Random.Range(-45f, 45f), Random.Range(5f, 45f), Random.Range(-45f, 45f));
-        float RandomScale = Random.Range(0.5f, 1.5f);
+        Vector3 NewPosition = new Vector3(Random.Range(-30f, 30f), Random.Range(1f, 30f), Random.Range(-30f, 30f));
+        float RandomScale = Random.Range(2.0f, 3.5f);
         GameObject obj = (GameObject)Instantiate(BalloonPrefab, transform.position + NewPosition, Quaternion.identity);
-        obj.GetComponent<Rigidbody>().velocity = new Vector3(Random.Range(-1f, 1f), Random.Range(-1f, 1f), Random.Range(-1f, 1f));
+        obj.GetComponent<Rigidbody>().velocity = new Vector3(Random.Range(-0.5f, 0.5f), Random.Range(-0.5f, 0.5f), Random.Range(-0.5f, 0.5f));
         obj.transform.localScale = new Vector3(RandomScale, RandomScale, RandomScale);
+        obj.name = "Balloon" + id.ToString();
+        id = (id + 1) % 1000;
     }
 
     public void Decrement(int amount) {
