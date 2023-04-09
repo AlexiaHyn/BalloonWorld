@@ -8,9 +8,9 @@ public class Balloon : MonoBehaviour
     Spawning SpawningScript;
     private Vector3 InitialPosition;
     private Vector3 temp;
-    public AudioClip myAudioClip;
-    private AudioSource audioSource;
-    public string m4aFilePath;
+    AudioSource audioSource;
+    public AudioClip pop_sound;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -46,16 +46,19 @@ public class Balloon : MonoBehaviour
                 temp.y -= i;
                 temp.z -= i;
 
+                gameObject.transform.localScale = temp;
+
+                
+                    
                 if (temp.x < 1 || temp.y < 1 || temp.z < 1) {
                     Destroy(gameObject);
                     Spawning.decreaseTotal();
-                    audioSource = GetComponent<AudioSource>();
-                    myAudioClip = Resources.Load<AudioClip>(m4aFilePath);
-                    audioSource.clip = myAudioClip;
-                    audioSource.Play();
-                }
+                    
 
-                gameObject.transform.localScale = temp;
+                }
+                
+                audioSource.PlayOneShot(pop_sound, 1f);
+
 
               
             }

@@ -7,7 +7,8 @@ public class Spawning : MonoBehaviour
     public GameObject BalloonPrefab;
     private static int total = 100;
     private int id = 0;
-
+    AudioSource audioSource;
+    public AudioClip pop_sound;
     private float TimeRemaining = 3f;
 
     private GameObject obj;
