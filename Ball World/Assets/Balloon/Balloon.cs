@@ -48,19 +48,14 @@ public class Balloon : MonoBehaviour
 
                 gameObject.transform.localScale = temp;
 
-                
+                 audioSource.PlayOneShot(pop_sound);
                     
                 if (temp.x < 1 || temp.y < 1 || temp.z < 1) {
                     Destroy(gameObject);
                     Spawning.decreaseTotal();
-                    
 
                 }
                 
-                audioSource.PlayOneShot(pop_sound, 1f);
-
-
-              
             }
 
         }
