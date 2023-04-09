@@ -19359,8 +19359,14 @@ struct Balloon_t6CB988D52ACA6084C14555D88B6DB582F75902D7  : public MonoBehaviour
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___InitialPosition_5;
 	// UnityEngine.Vector3 Balloon::temp
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___temp_6;
+	// UnityEngine.AudioClip Balloon::myAudioClip
+	AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___myAudioClip_7;
+	// UnityEngine.AudioSource Balloon::audioSource
+	AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* ___audioSource_8;
+	// System.String Balloon::m4aFilePath
+	String_t* ___m4aFilePath_9;
 	// System.Single Balloon::forceMagnitude
-	float ___forceMagnitude_7;
+	float ___forceMagnitude_10;
 };
 
 // Oculus.Interaction.Demo.BasicPBRGlobals
@@ -34949,9 +34955,9 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6832[13] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6835[1] = 
 {
 	static_cast<int32_t>(offsetof(U3CPrivateImplementationDetailsU3E_t3A51899FBAA581553000230A6A0F92898553245F_StaticFields, ___1C3635C112D556F4C11A4FE6BDE6ED3F126C4B2B546811BDB64DE7BDED3A05CB_0)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6837[4] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6837[7] = 
 {
-	static_cast<int32_t>(offsetof(Balloon_t6CB988D52ACA6084C14555D88B6DB582F75902D7, ___SpawningScript_4)),static_cast<int32_t>(offsetof(Balloon_t6CB988D52ACA6084C14555D88B6DB582F75902D7, ___InitialPosition_5)),static_cast<int32_t>(offsetof(Balloon_t6CB988D52ACA6084C14555D88B6DB582F75902D7, ___temp_6)),static_cast<int32_t>(offsetof(Balloon_t6CB988D52ACA6084C14555D88B6DB582F75902D7, ___forceMagnitude_7)),};
+	static_cast<int32_t>(offsetof(Balloon_t6CB988D52ACA6084C14555D88B6DB582F75902D7, ___SpawningScript_4)),static_cast<int32_t>(offsetof(Balloon_t6CB988D52ACA6084C14555D88B6DB582F75902D7, ___InitialPosition_5)),static_cast<int32_t>(offsetof(Balloon_t6CB988D52ACA6084C14555D88B6DB582F75902D7, ___temp_6)),static_cast<int32_t>(offsetof(Balloon_t6CB988D52ACA6084C14555D88B6DB582F75902D7, ___myAudioClip_7)),static_cast<int32_t>(offsetof(Balloon_t6CB988D52ACA6084C14555D88B6DB582F75902D7, ___audioSource_8)),static_cast<int32_t>(offsetof(Balloon_t6CB988D52ACA6084C14555D88B6DB582F75902D7, ___m4aFilePath_9)),static_cast<int32_t>(offsetof(Balloon_t6CB988D52ACA6084C14555D88B6DB582F75902D7, ___forceMagnitude_10)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6838[5] = 
 {
 	static_cast<int32_t>(offsetof(Spawning_t66D24EEBCFBF4294D5086E1D0C759C21B773B69F, ___BalloonPrefab_4)),static_cast<int32_t>(offsetof(Spawning_t66D24EEBCFBF4294D5086E1D0C759C21B773B69F_StaticFields, ___total_5)),static_cast<int32_t>(offsetof(Spawning_t66D24EEBCFBF4294D5086E1D0C759C21B773B69F, ___id_6)),static_cast<int32_t>(offsetof(Spawning_t66D24EEBCFBF4294D5086E1D0C759C21B773B69F, ___TimeRemaining_7)),static_cast<int32_t>(offsetof(Spawning_t66D24EEBCFBF4294D5086E1D0C759C21B773B69F, ___obj_8)),};
