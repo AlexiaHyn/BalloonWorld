@@ -6,10 +6,10 @@ public class Spawning : MonoBehaviour
 {
     public GameObject BalloonPrefab;
 
-    private int total = 250;
+    private int total = 100;
     private int id = 0;
 
-    private float TimeRemaining = 10f;
+    private float TimeRemaining = 3f;
 
     private GameObject obj;
 
@@ -26,7 +26,7 @@ public class Spawning : MonoBehaviour
     {
         TimeRemaining -= Time.deltaTime;
         if (TimeRemaining < 0) {
-            TimeRemaining = 10f;
+            TimeRemaining = 3f;
             if (total < 100) {
                 Spawn();
             }

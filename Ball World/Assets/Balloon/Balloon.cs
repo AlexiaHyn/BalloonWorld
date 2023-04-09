@@ -17,7 +17,7 @@ public class Balloon : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (this.transform.position.sqrMagnitude > 10000) {
+        if (this.transform.position.sqrMagnitude > 2500 || this.transform.position.y < -5) {
             SpawningScript.Decrement(1);
             Destroy(gameObject);
         }
