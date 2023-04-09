@@ -11,6 +11,8 @@ public class Spawning : MonoBehaviour
 
     private float TimeRemaining = 10f;
 
+    private GameObject obj;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -29,15 +31,35 @@ public class Spawning : MonoBehaviour
                 Spawn();
             }
         }
+        
+
+        // if (OVRInput.Get(OVRInput.Button.PrimaryIndexTrigger)) {
+        //     Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        //     RaycastHit hit;
+        //     if (Physics.Raycast(ray, out hit)) {
+        //         // Check if the object hit is a balloon
+        //         Destroy(hit.transform.gameObject);
+        //     }
+        // }
+        
+        //  Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        //     RaycastHit hit;
+        //     if (Physics.Raycast(ray, out hit)) {
+        //         // Check if the object hit is a balloon
+        //         Destroy(hit.transform.gameObject);
+        //     }
+
+
     }
 
     void Spawn() {
         Vector3 NewPosition = new Vector3(Random.Range(-25f, 25f), Random.Range(1f, 25f), Random.Range(-25f, 25f));
         float RandomScale = Random.Range(2.5f, 3.5f);
-        GameObject obj = (GameObject)Instantiate(BalloonPrefab, transform.position + NewPosition, Quaternion.identity);
+        obj = (GameObject)Instantiate(BalloonPrefab, transform.position + NewPosition, Quaternion.identity);
         obj.GetComponent<Rigidbody>().velocity = new Vector3(Random.Range(-0.5f, 0.5f), Random.Range(-0.5f, 0.5f), Random.Range(-0.5f, 0.5f));
         obj.transform.localScale = new Vector3(RandomScale, RandomScale, RandomScale);
         obj.name = "Balloon" + id.ToString();
+        Debug.Log(obj.name);
         id = (id + 1) % 1000;
     }
 

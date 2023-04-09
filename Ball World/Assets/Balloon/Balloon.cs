@@ -6,6 +6,7 @@ public class Balloon : MonoBehaviour
 {
     Spawning SpawningScript;
     private Vector3 InitialPosition;
+    private Vector3 temp;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,6 +21,41 @@ public class Balloon : MonoBehaviour
             SpawningScript.Decrement(1);
             Destroy(gameObject);
         }
+        //Upon collision with another GameObject, this GameObject will reverse direction
+        
+        // Collider collider = GetComponent<Collider>();
+        // if (collider.gameObject.name.Contains("Cylinder")) {
+        //     Destroy(collider.gameObject);
+        // }
     }
+
+    public float forceMagnitude = 10.0f;
+    
+    private void OnTriggerEnter(Collider other)
+        {
+            
+            if (other.tag == "ray") {
+                
+            
+
+                temp = gameObject.transform.localScale;
+                float i = .5f;
+                temp.x -= i;
+                temp.y -= i;
+                temp.z -= i;
+
+                if (temp.x < 0 || temp.y < 0 || temp.z < 0) {
+                    Destroy(gameObject);
+                }
+
+                gameObject.transform.localScale = temp;
+
+              
+            }
+
+        }
+
+
+        
 
 }
