@@ -3188,6 +3188,8 @@ struct PrimitiveValue_t1CC37566F40746757D5E3F87474A05909D85C2D4_marshaled_com
 // UnityEngine.PropertyAttribute
 struct PropertyAttribute_t5E0CB5A6CDA6E24CBD4FF26DE3B0C29D8BB54BF0  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
 {
+	// System.Int32 UnityEngine.PropertyAttribute::<order>k__BackingField
+	int32_t ___U3CorderU3Ek__BackingField_0;
 };
 
 // System.Reflection.PropertyInfo
@@ -3772,9 +3774,9 @@ struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
 struct Plane_tB7D8CC6F7AACF5F3AA483AF005C1102A8577BC0C 
 {
 	// UnityEngine.Vector3 UnityEngine.Plane::m_Normal
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_Normal_0;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_Normal_1;
 	// System.Single UnityEngine.Plane::m_Distance
-	float ___m_Distance_1;
+	float ___m_Distance_2;
 };
 
 // UnityEngine.Pose
@@ -3905,7 +3907,7 @@ struct RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023_marshaled_com
 struct RequireInterfaceAttribute_t84E68526970DA66A5C3285E399BFF3ADDF2E9067  : public PropertyAttribute_t5E0CB5A6CDA6E24CBD4FF26DE3B0C29D8BB54BF0
 {
 	// System.Type UnityEngine.XR.Interaction.Toolkit.Utilities.Internal.RequireInterfaceAttribute::<interfaceType>k__BackingField
-	Type_t* ___U3CinterfaceTypeU3Ek__BackingField_0;
+	Type_t* ___U3CinterfaceTypeU3Ek__BackingField_1;
 };
 
 // System.RuntimeFieldHandle
@@ -19154,7 +19156,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* RequireInterfaceAttribute_get_interfa
 {
 	{
 		// public Type interfaceType { get; }
-		Type_t* L_0 = __this->___U3CinterfaceTypeU3Ek__BackingField_0;
+		Type_t* L_0 = __this->___U3CinterfaceTypeU3Ek__BackingField_1;
 		return L_0;
 	}
 }
@@ -19166,8 +19168,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RequireInterfaceAttribute__ctor_m84D8159
 		PropertyAttribute__ctor_m19247686E165101F140615C7306DC2DA3953D97D(__this, NULL);
 		// this.interfaceType = interfaceType;
 		Type_t* L_0 = ___0_interfaceType;
-		__this->___U3CinterfaceTypeU3Ek__BackingField_0 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CinterfaceTypeU3Ek__BackingField_0), (void*)L_0);
+		__this->___U3CinterfaceTypeU3Ek__BackingField_1 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CinterfaceTypeU3Ek__BackingField_1), (void*)L_0);
 		// }
 		return;
 	}
@@ -19200,7 +19202,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ScriptableSettingsBase_tB2C01517BE0CD328058EA
 		// return (ScriptableSettingsBase)instanceProperty.GetValue(null, null);
 		NullCheck(L_1);
 		RuntimeObject* L_2;
-		L_2 = VirtualFuncInvoker2< RuntimeObject*, RuntimeObject*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(19 /* System.Object System.Reflection.PropertyInfo::GetValue(System.Object,System.Object[]) */, L_1, NULL, (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)NULL);
+		L_2 = VirtualFuncInvoker2< RuntimeObject*, RuntimeObject*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(21 /* System.Object System.Reflection.PropertyInfo::GetValue(System.Object,System.Object[]) */, L_1, NULL, (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)NULL);
 		return ((ScriptableSettingsBase_tB2C01517BE0CD328058EA2C16794C588350E6482*)CastclassClass((RuntimeObject*)L_2, ScriptableSettingsBase_tB2C01517BE0CD328058EA2C16794C588350E6482_il2cpp_TypeInfo_var));
 	}
 }

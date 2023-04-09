@@ -2433,6 +2433,8 @@ struct PrimitiveValue_t1CC37566F40746757D5E3F87474A05909D85C2D4_marshaled_com
 // UnityEngine.PropertyAttribute
 struct PropertyAttribute_t5E0CB5A6CDA6E24CBD4FF26DE3B0C29D8BB54BF0  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
 {
+	// System.Int32 UnityEngine.PropertyAttribute::<order>k__BackingField
+	int32_t ___U3CorderU3Ek__BackingField_0;
 };
 
 // System.Reflection.PropertyInfo
@@ -3332,51 +3334,51 @@ struct Exception_t_marshaled_com
 struct InputControlAttribute_t312CA97B153666F873279E81BA4054684715368D  : public PropertyAttribute_t5E0CB5A6CDA6E24CBD4FF26DE3B0C29D8BB54BF0
 {
 	// System.String UnityEngine.InputSystem.Layouts.InputControlAttribute::<layout>k__BackingField
-	String_t* ___U3ClayoutU3Ek__BackingField_0;
+	String_t* ___U3ClayoutU3Ek__BackingField_1;
 	// System.String UnityEngine.InputSystem.Layouts.InputControlAttribute::<variants>k__BackingField
-	String_t* ___U3CvariantsU3Ek__BackingField_1;
+	String_t* ___U3CvariantsU3Ek__BackingField_2;
 	// System.String UnityEngine.InputSystem.Layouts.InputControlAttribute::<name>k__BackingField
-	String_t* ___U3CnameU3Ek__BackingField_2;
+	String_t* ___U3CnameU3Ek__BackingField_3;
 	// System.String UnityEngine.InputSystem.Layouts.InputControlAttribute::<format>k__BackingField
-	String_t* ___U3CformatU3Ek__BackingField_3;
+	String_t* ___U3CformatU3Ek__BackingField_4;
 	// System.String UnityEngine.InputSystem.Layouts.InputControlAttribute::<usage>k__BackingField
-	String_t* ___U3CusageU3Ek__BackingField_4;
+	String_t* ___U3CusageU3Ek__BackingField_5;
 	// System.String[] UnityEngine.InputSystem.Layouts.InputControlAttribute::<usages>k__BackingField
-	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___U3CusagesU3Ek__BackingField_5;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___U3CusagesU3Ek__BackingField_6;
 	// System.String UnityEngine.InputSystem.Layouts.InputControlAttribute::<parameters>k__BackingField
-	String_t* ___U3CparametersU3Ek__BackingField_6;
+	String_t* ___U3CparametersU3Ek__BackingField_7;
 	// System.String UnityEngine.InputSystem.Layouts.InputControlAttribute::<processors>k__BackingField
-	String_t* ___U3CprocessorsU3Ek__BackingField_7;
+	String_t* ___U3CprocessorsU3Ek__BackingField_8;
 	// System.String UnityEngine.InputSystem.Layouts.InputControlAttribute::<alias>k__BackingField
-	String_t* ___U3CaliasU3Ek__BackingField_8;
+	String_t* ___U3CaliasU3Ek__BackingField_9;
 	// System.String[] UnityEngine.InputSystem.Layouts.InputControlAttribute::<aliases>k__BackingField
-	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___U3CaliasesU3Ek__BackingField_9;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___U3CaliasesU3Ek__BackingField_10;
 	// System.String UnityEngine.InputSystem.Layouts.InputControlAttribute::<useStateFrom>k__BackingField
-	String_t* ___U3CuseStateFromU3Ek__BackingField_10;
+	String_t* ___U3CuseStateFromU3Ek__BackingField_11;
 	// System.UInt32 UnityEngine.InputSystem.Layouts.InputControlAttribute::<bit>k__BackingField
-	uint32_t ___U3CbitU3Ek__BackingField_11;
+	uint32_t ___U3CbitU3Ek__BackingField_12;
 	// System.UInt32 UnityEngine.InputSystem.Layouts.InputControlAttribute::<offset>k__BackingField
-	uint32_t ___U3CoffsetU3Ek__BackingField_12;
+	uint32_t ___U3CoffsetU3Ek__BackingField_13;
 	// System.UInt32 UnityEngine.InputSystem.Layouts.InputControlAttribute::<sizeInBits>k__BackingField
-	uint32_t ___U3CsizeInBitsU3Ek__BackingField_13;
+	uint32_t ___U3CsizeInBitsU3Ek__BackingField_14;
 	// System.Int32 UnityEngine.InputSystem.Layouts.InputControlAttribute::<arraySize>k__BackingField
-	int32_t ___U3CarraySizeU3Ek__BackingField_14;
+	int32_t ___U3CarraySizeU3Ek__BackingField_15;
 	// System.String UnityEngine.InputSystem.Layouts.InputControlAttribute::<displayName>k__BackingField
-	String_t* ___U3CdisplayNameU3Ek__BackingField_15;
+	String_t* ___U3CdisplayNameU3Ek__BackingField_16;
 	// System.String UnityEngine.InputSystem.Layouts.InputControlAttribute::<shortDisplayName>k__BackingField
-	String_t* ___U3CshortDisplayNameU3Ek__BackingField_16;
+	String_t* ___U3CshortDisplayNameU3Ek__BackingField_17;
 	// System.Boolean UnityEngine.InputSystem.Layouts.InputControlAttribute::<noisy>k__BackingField
-	bool ___U3CnoisyU3Ek__BackingField_17;
+	bool ___U3CnoisyU3Ek__BackingField_18;
 	// System.Boolean UnityEngine.InputSystem.Layouts.InputControlAttribute::<synthetic>k__BackingField
-	bool ___U3CsyntheticU3Ek__BackingField_18;
+	bool ___U3CsyntheticU3Ek__BackingField_19;
 	// System.Boolean UnityEngine.InputSystem.Layouts.InputControlAttribute::<dontReset>k__BackingField
-	bool ___U3CdontResetU3Ek__BackingField_19;
+	bool ___U3CdontResetU3Ek__BackingField_20;
 	// System.Object UnityEngine.InputSystem.Layouts.InputControlAttribute::<defaultState>k__BackingField
-	RuntimeObject* ___U3CdefaultStateU3Ek__BackingField_20;
+	RuntimeObject* ___U3CdefaultStateU3Ek__BackingField_21;
 	// System.Object UnityEngine.InputSystem.Layouts.InputControlAttribute::<minValue>k__BackingField
-	RuntimeObject* ___U3CminValueU3Ek__BackingField_21;
+	RuntimeObject* ___U3CminValueU3Ek__BackingField_22;
 	// System.Object UnityEngine.InputSystem.Layouts.InputControlAttribute::<maxValue>k__BackingField
-	RuntimeObject* ___U3CmaxValueU3Ek__BackingField_22;
+	RuntimeObject* ___U3CmaxValueU3Ek__BackingField_23;
 };
 
 // UnityEngine.InputSystem.Layouts.InputControlLayoutAttribute
@@ -14176,7 +14178,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* InputControlAttribute_get_layout_m3
 {
 	{
 		// public string layout { get; set; }
-		String_t* L_0 = __this->___U3ClayoutU3Ek__BackingField_0;
+		String_t* L_0 = __this->___U3ClayoutU3Ek__BackingField_1;
 		return L_0;
 	}
 }
@@ -14186,8 +14188,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputControlAttribute_set_layout_mF5DEA7
 	{
 		// public string layout { get; set; }
 		String_t* L_0 = ___0_value;
-		__this->___U3ClayoutU3Ek__BackingField_0 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3ClayoutU3Ek__BackingField_0), (void*)L_0);
+		__this->___U3ClayoutU3Ek__BackingField_1 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3ClayoutU3Ek__BackingField_1), (void*)L_0);
 		return;
 	}
 }
@@ -14196,7 +14198,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* InputControlAttribute_get_variants_
 {
 	{
 		// public string variants { get; set; }
-		String_t* L_0 = __this->___U3CvariantsU3Ek__BackingField_1;
+		String_t* L_0 = __this->___U3CvariantsU3Ek__BackingField_2;
 		return L_0;
 	}
 }
@@ -14206,8 +14208,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputControlAttribute_set_variants_m3B66
 	{
 		// public string variants { get; set; }
 		String_t* L_0 = ___0_value;
-		__this->___U3CvariantsU3Ek__BackingField_1 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CvariantsU3Ek__BackingField_1), (void*)L_0);
+		__this->___U3CvariantsU3Ek__BackingField_2 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CvariantsU3Ek__BackingField_2), (void*)L_0);
 		return;
 	}
 }
@@ -14216,7 +14218,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* InputControlAttribute_get_name_m2E7
 {
 	{
 		// public string name { get; set; }
-		String_t* L_0 = __this->___U3CnameU3Ek__BackingField_2;
+		String_t* L_0 = __this->___U3CnameU3Ek__BackingField_3;
 		return L_0;
 	}
 }
@@ -14226,8 +14228,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputControlAttribute_set_name_m33E988F4
 	{
 		// public string name { get; set; }
 		String_t* L_0 = ___0_value;
-		__this->___U3CnameU3Ek__BackingField_2 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CnameU3Ek__BackingField_2), (void*)L_0);
+		__this->___U3CnameU3Ek__BackingField_3 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CnameU3Ek__BackingField_3), (void*)L_0);
 		return;
 	}
 }
@@ -14236,7 +14238,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* InputControlAttribute_get_format_m7
 {
 	{
 		// public string format { get; set; }
-		String_t* L_0 = __this->___U3CformatU3Ek__BackingField_3;
+		String_t* L_0 = __this->___U3CformatU3Ek__BackingField_4;
 		return L_0;
 	}
 }
@@ -14246,8 +14248,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputControlAttribute_set_format_mFF1800
 	{
 		// public string format { get; set; }
 		String_t* L_0 = ___0_value;
-		__this->___U3CformatU3Ek__BackingField_3 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CformatU3Ek__BackingField_3), (void*)L_0);
+		__this->___U3CformatU3Ek__BackingField_4 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CformatU3Ek__BackingField_4), (void*)L_0);
 		return;
 	}
 }
@@ -14256,7 +14258,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* InputControlAttribute_get_usage_m73
 {
 	{
 		// public string usage { get; set; }
-		String_t* L_0 = __this->___U3CusageU3Ek__BackingField_4;
+		String_t* L_0 = __this->___U3CusageU3Ek__BackingField_5;
 		return L_0;
 	}
 }
@@ -14266,8 +14268,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputControlAttribute_set_usage_m8F00E4A
 	{
 		// public string usage { get; set; }
 		String_t* L_0 = ___0_value;
-		__this->___U3CusageU3Ek__BackingField_4 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CusageU3Ek__BackingField_4), (void*)L_0);
+		__this->___U3CusageU3Ek__BackingField_5 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CusageU3Ek__BackingField_5), (void*)L_0);
 		return;
 	}
 }
@@ -14276,7 +14278,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F
 {
 	{
 		// public string[] usages { get; set; }
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0 = __this->___U3CusagesU3Ek__BackingField_5;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0 = __this->___U3CusagesU3Ek__BackingField_6;
 		return L_0;
 	}
 }
@@ -14286,8 +14288,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputControlAttribute_set_usages_mBDB41E
 	{
 		// public string[] usages { get; set; }
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0 = ___0_value;
-		__this->___U3CusagesU3Ek__BackingField_5 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CusagesU3Ek__BackingField_5), (void*)L_0);
+		__this->___U3CusagesU3Ek__BackingField_6 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CusagesU3Ek__BackingField_6), (void*)L_0);
 		return;
 	}
 }
@@ -14296,7 +14298,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* InputControlAttribute_get_parameter
 {
 	{
 		// public string parameters { get; set; }
-		String_t* L_0 = __this->___U3CparametersU3Ek__BackingField_6;
+		String_t* L_0 = __this->___U3CparametersU3Ek__BackingField_7;
 		return L_0;
 	}
 }
@@ -14306,8 +14308,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputControlAttribute_set_parameters_m51
 	{
 		// public string parameters { get; set; }
 		String_t* L_0 = ___0_value;
-		__this->___U3CparametersU3Ek__BackingField_6 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CparametersU3Ek__BackingField_6), (void*)L_0);
+		__this->___U3CparametersU3Ek__BackingField_7 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CparametersU3Ek__BackingField_7), (void*)L_0);
 		return;
 	}
 }
@@ -14316,7 +14318,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* InputControlAttribute_get_processor
 {
 	{
 		// public string processors { get; set; }
-		String_t* L_0 = __this->___U3CprocessorsU3Ek__BackingField_7;
+		String_t* L_0 = __this->___U3CprocessorsU3Ek__BackingField_8;
 		return L_0;
 	}
 }
@@ -14326,8 +14328,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputControlAttribute_set_processors_m5F
 	{
 		// public string processors { get; set; }
 		String_t* L_0 = ___0_value;
-		__this->___U3CprocessorsU3Ek__BackingField_7 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CprocessorsU3Ek__BackingField_7), (void*)L_0);
+		__this->___U3CprocessorsU3Ek__BackingField_8 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CprocessorsU3Ek__BackingField_8), (void*)L_0);
 		return;
 	}
 }
@@ -14336,7 +14338,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* InputControlAttribute_get_alias_m09
 {
 	{
 		// public string alias { get; set; }
-		String_t* L_0 = __this->___U3CaliasU3Ek__BackingField_8;
+		String_t* L_0 = __this->___U3CaliasU3Ek__BackingField_9;
 		return L_0;
 	}
 }
@@ -14346,8 +14348,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputControlAttribute_set_alias_m8DBC221
 	{
 		// public string alias { get; set; }
 		String_t* L_0 = ___0_value;
-		__this->___U3CaliasU3Ek__BackingField_8 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CaliasU3Ek__BackingField_8), (void*)L_0);
+		__this->___U3CaliasU3Ek__BackingField_9 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CaliasU3Ek__BackingField_9), (void*)L_0);
 		return;
 	}
 }
@@ -14356,7 +14358,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F
 {
 	{
 		// public string[] aliases { get; set; }
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0 = __this->___U3CaliasesU3Ek__BackingField_9;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0 = __this->___U3CaliasesU3Ek__BackingField_10;
 		return L_0;
 	}
 }
@@ -14366,8 +14368,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputControlAttribute_set_aliases_m4362A
 	{
 		// public string[] aliases { get; set; }
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0 = ___0_value;
-		__this->___U3CaliasesU3Ek__BackingField_9 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CaliasesU3Ek__BackingField_9), (void*)L_0);
+		__this->___U3CaliasesU3Ek__BackingField_10 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CaliasesU3Ek__BackingField_10), (void*)L_0);
 		return;
 	}
 }
@@ -14376,7 +14378,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* InputControlAttribute_get_useStateF
 {
 	{
 		// public string useStateFrom { get; set; }
-		String_t* L_0 = __this->___U3CuseStateFromU3Ek__BackingField_10;
+		String_t* L_0 = __this->___U3CuseStateFromU3Ek__BackingField_11;
 		return L_0;
 	}
 }
@@ -14386,8 +14388,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputControlAttribute_set_useStateFrom_m
 	{
 		// public string useStateFrom { get; set; }
 		String_t* L_0 = ___0_value;
-		__this->___U3CuseStateFromU3Ek__BackingField_10 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CuseStateFromU3Ek__BackingField_10), (void*)L_0);
+		__this->___U3CuseStateFromU3Ek__BackingField_11 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CuseStateFromU3Ek__BackingField_11), (void*)L_0);
 		return;
 	}
 }
@@ -14396,7 +14398,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t InputControlAttribute_get_bit_m341EA
 {
 	{
 		// public uint bit { get; set; } = InputStateBlock.InvalidOffset;
-		uint32_t L_0 = __this->___U3CbitU3Ek__BackingField_11;
+		uint32_t L_0 = __this->___U3CbitU3Ek__BackingField_12;
 		return L_0;
 	}
 }
@@ -14406,7 +14408,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputControlAttribute_set_bit_mA9C043C22
 	{
 		// public uint bit { get; set; } = InputStateBlock.InvalidOffset;
 		uint32_t L_0 = ___0_value;
-		__this->___U3CbitU3Ek__BackingField_11 = L_0;
+		__this->___U3CbitU3Ek__BackingField_12 = L_0;
 		return;
 	}
 }
@@ -14415,7 +14417,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t InputControlAttribute_get_offset_m0C
 {
 	{
 		// public uint offset { get; set; } = InputStateBlock.InvalidOffset;
-		uint32_t L_0 = __this->___U3CoffsetU3Ek__BackingField_12;
+		uint32_t L_0 = __this->___U3CoffsetU3Ek__BackingField_13;
 		return L_0;
 	}
 }
@@ -14425,7 +14427,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputControlAttribute_set_offset_m7DB10E
 	{
 		// public uint offset { get; set; } = InputStateBlock.InvalidOffset;
 		uint32_t L_0 = ___0_value;
-		__this->___U3CoffsetU3Ek__BackingField_12 = L_0;
+		__this->___U3CoffsetU3Ek__BackingField_13 = L_0;
 		return;
 	}
 }
@@ -14434,7 +14436,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t InputControlAttribute_get_sizeInBits
 {
 	{
 		// public uint sizeInBits { get; set; }
-		uint32_t L_0 = __this->___U3CsizeInBitsU3Ek__BackingField_13;
+		uint32_t L_0 = __this->___U3CsizeInBitsU3Ek__BackingField_14;
 		return L_0;
 	}
 }
@@ -14444,7 +14446,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputControlAttribute_set_sizeInBits_m38
 	{
 		// public uint sizeInBits { get; set; }
 		uint32_t L_0 = ___0_value;
-		__this->___U3CsizeInBitsU3Ek__BackingField_13 = L_0;
+		__this->___U3CsizeInBitsU3Ek__BackingField_14 = L_0;
 		return;
 	}
 }
@@ -14453,7 +14455,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t InputControlAttribute_get_arraySize_m
 {
 	{
 		// public int arraySize { get; set; }
-		int32_t L_0 = __this->___U3CarraySizeU3Ek__BackingField_14;
+		int32_t L_0 = __this->___U3CarraySizeU3Ek__BackingField_15;
 		return L_0;
 	}
 }
@@ -14463,7 +14465,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputControlAttribute_set_arraySize_m313
 	{
 		// public int arraySize { get; set; }
 		int32_t L_0 = ___0_value;
-		__this->___U3CarraySizeU3Ek__BackingField_14 = L_0;
+		__this->___U3CarraySizeU3Ek__BackingField_15 = L_0;
 		return;
 	}
 }
@@ -14472,7 +14474,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* InputControlAttribute_get_displayNa
 {
 	{
 		// public string displayName { get; set; }
-		String_t* L_0 = __this->___U3CdisplayNameU3Ek__BackingField_15;
+		String_t* L_0 = __this->___U3CdisplayNameU3Ek__BackingField_16;
 		return L_0;
 	}
 }
@@ -14482,8 +14484,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputControlAttribute_set_displayName_mB
 	{
 		// public string displayName { get; set; }
 		String_t* L_0 = ___0_value;
-		__this->___U3CdisplayNameU3Ek__BackingField_15 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CdisplayNameU3Ek__BackingField_15), (void*)L_0);
+		__this->___U3CdisplayNameU3Ek__BackingField_16 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CdisplayNameU3Ek__BackingField_16), (void*)L_0);
 		return;
 	}
 }
@@ -14492,7 +14494,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* InputControlAttribute_get_shortDisp
 {
 	{
 		// public string shortDisplayName { get; set; }
-		String_t* L_0 = __this->___U3CshortDisplayNameU3Ek__BackingField_16;
+		String_t* L_0 = __this->___U3CshortDisplayNameU3Ek__BackingField_17;
 		return L_0;
 	}
 }
@@ -14502,8 +14504,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputControlAttribute_set_shortDisplayNa
 	{
 		// public string shortDisplayName { get; set; }
 		String_t* L_0 = ___0_value;
-		__this->___U3CshortDisplayNameU3Ek__BackingField_16 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CshortDisplayNameU3Ek__BackingField_16), (void*)L_0);
+		__this->___U3CshortDisplayNameU3Ek__BackingField_17 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CshortDisplayNameU3Ek__BackingField_17), (void*)L_0);
 		return;
 	}
 }
@@ -14512,7 +14514,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InputControlAttribute_get_noisy_mBA662A6
 {
 	{
 		// public bool noisy { get; set; }
-		bool L_0 = __this->___U3CnoisyU3Ek__BackingField_17;
+		bool L_0 = __this->___U3CnoisyU3Ek__BackingField_18;
 		return L_0;
 	}
 }
@@ -14522,7 +14524,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputControlAttribute_set_noisy_mF63FE55
 	{
 		// public bool noisy { get; set; }
 		bool L_0 = ___0_value;
-		__this->___U3CnoisyU3Ek__BackingField_17 = L_0;
+		__this->___U3CnoisyU3Ek__BackingField_18 = L_0;
 		return;
 	}
 }
@@ -14531,7 +14533,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InputControlAttribute_get_synthetic_mBB9
 {
 	{
 		// public bool synthetic { get; set; }
-		bool L_0 = __this->___U3CsyntheticU3Ek__BackingField_18;
+		bool L_0 = __this->___U3CsyntheticU3Ek__BackingField_19;
 		return L_0;
 	}
 }
@@ -14541,7 +14543,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputControlAttribute_set_synthetic_mC41
 	{
 		// public bool synthetic { get; set; }
 		bool L_0 = ___0_value;
-		__this->___U3CsyntheticU3Ek__BackingField_18 = L_0;
+		__this->___U3CsyntheticU3Ek__BackingField_19 = L_0;
 		return;
 	}
 }
@@ -14550,7 +14552,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InputControlAttribute_get_dontReset_m085
 {
 	{
 		// public bool dontReset { get; set; }
-		bool L_0 = __this->___U3CdontResetU3Ek__BackingField_19;
+		bool L_0 = __this->___U3CdontResetU3Ek__BackingField_20;
 		return L_0;
 	}
 }
@@ -14560,7 +14562,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputControlAttribute_set_dontReset_mA49
 	{
 		// public bool dontReset { get; set; }
 		bool L_0 = ___0_value;
-		__this->___U3CdontResetU3Ek__BackingField_19 = L_0;
+		__this->___U3CdontResetU3Ek__BackingField_20 = L_0;
 		return;
 	}
 }
@@ -14569,7 +14571,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* InputControlAttribute_get_defa
 {
 	{
 		// public object defaultState { get; set; }
-		RuntimeObject* L_0 = __this->___U3CdefaultStateU3Ek__BackingField_20;
+		RuntimeObject* L_0 = __this->___U3CdefaultStateU3Ek__BackingField_21;
 		return L_0;
 	}
 }
@@ -14579,8 +14581,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputControlAttribute_set_defaultState_m
 	{
 		// public object defaultState { get; set; }
 		RuntimeObject* L_0 = ___0_value;
-		__this->___U3CdefaultStateU3Ek__BackingField_20 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CdefaultStateU3Ek__BackingField_20), (void*)L_0);
+		__this->___U3CdefaultStateU3Ek__BackingField_21 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CdefaultStateU3Ek__BackingField_21), (void*)L_0);
 		return;
 	}
 }
@@ -14589,7 +14591,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* InputControlAttribute_get_minV
 {
 	{
 		// public object minValue { get; set; }
-		RuntimeObject* L_0 = __this->___U3CminValueU3Ek__BackingField_21;
+		RuntimeObject* L_0 = __this->___U3CminValueU3Ek__BackingField_22;
 		return L_0;
 	}
 }
@@ -14599,8 +14601,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputControlAttribute_set_minValue_m63BD
 	{
 		// public object minValue { get; set; }
 		RuntimeObject* L_0 = ___0_value;
-		__this->___U3CminValueU3Ek__BackingField_21 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CminValueU3Ek__BackingField_21), (void*)L_0);
+		__this->___U3CminValueU3Ek__BackingField_22 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CminValueU3Ek__BackingField_22), (void*)L_0);
 		return;
 	}
 }
@@ -14609,7 +14611,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* InputControlAttribute_get_maxV
 {
 	{
 		// public object maxValue { get; set; }
-		RuntimeObject* L_0 = __this->___U3CmaxValueU3Ek__BackingField_22;
+		RuntimeObject* L_0 = __this->___U3CmaxValueU3Ek__BackingField_23;
 		return L_0;
 	}
 }
@@ -14619,8 +14621,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputControlAttribute_set_maxValue_m4A7A
 	{
 		// public object maxValue { get; set; }
 		RuntimeObject* L_0 = ___0_value;
-		__this->___U3CmaxValueU3Ek__BackingField_22 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CmaxValueU3Ek__BackingField_22), (void*)L_0);
+		__this->___U3CmaxValueU3Ek__BackingField_23 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CmaxValueU3Ek__BackingField_23), (void*)L_0);
 		return;
 	}
 }
@@ -14629,9 +14631,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputControlAttribute__ctor_m560EDED16EA
 {
 	{
 		// public uint bit { get; set; } = InputStateBlock.InvalidOffset;
-		__this->___U3CbitU3Ek__BackingField_11 = (-1);
+		__this->___U3CbitU3Ek__BackingField_12 = (-1);
 		// public uint offset { get; set; } = InputStateBlock.InvalidOffset;
-		__this->___U3CoffsetU3Ek__BackingField_12 = (-1);
+		__this->___U3CoffsetU3Ek__BackingField_13 = (-1);
 		PropertyAttribute__ctor_m19247686E165101F140615C7306DC2DA3953D97D(__this, NULL);
 		return;
 	}
@@ -16442,7 +16444,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputControlLayout_AddControlItemsFromFi
 		Type_t* L_0 = ___0_type;
 		NullCheck(L_0);
 		FieldInfoU5BU5D_t50D47CBECF1AEB152F555803E3329D9E34DBF8D8* L_1;
-		L_1 = VirtualFuncInvoker1< FieldInfoU5BU5D_t50D47CBECF1AEB152F555803E3329D9E34DBF8D8*, int32_t >::Invoke(83 /* System.Reflection.FieldInfo[] System.Type::GetFields(System.Reflection.BindingFlags) */, L_0, ((int32_t)22));
+		L_1 = VirtualFuncInvoker1< FieldInfoU5BU5D_t50D47CBECF1AEB152F555803E3329D9E34DBF8D8*, int32_t >::Invoke(84 /* System.Reflection.FieldInfo[] System.Type::GetFields(System.Reflection.BindingFlags) */, L_0, ((int32_t)22));
 		// AddControlItemsFromMembers(fields, controlLayouts, layoutName);
 		V_0 = (MemberInfoU5BU5D_t4CB6970BB166E8E1CFB06152B2A2284971873053*)L_1;
 		MemberInfoU5BU5D_t4CB6970BB166E8E1CFB06152B2A2284971873053* L_2 = V_0;
@@ -16469,7 +16471,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputControlLayout_AddControlItemsFromPr
 		Type_t* L_0 = ___0_type;
 		NullCheck(L_0);
 		PropertyInfoU5BU5D_tD81C248B41D0C76207C42DB9C332DC79F490B1D7* L_1;
-		L_1 = VirtualFuncInvoker1< PropertyInfoU5BU5D_tD81C248B41D0C76207C42DB9C332DC79F490B1D7*, int32_t >::Invoke(103 /* System.Reflection.PropertyInfo[] System.Type::GetProperties(System.Reflection.BindingFlags) */, L_0, ((int32_t)22));
+		L_1 = VirtualFuncInvoker1< PropertyInfoU5BU5D_tD81C248B41D0C76207C42DB9C332DC79F490B1D7*, int32_t >::Invoke(105 /* System.Reflection.PropertyInfo[] System.Type::GetProperties(System.Reflection.BindingFlags) */, L_0, ((int32_t)22));
 		// AddControlItemsFromMembers(properties, controlLayouts, layoutName);
 		V_0 = (MemberInfoU5BU5D_t4CB6970BB166E8E1CFB06152B2A2284971873053*)L_1;
 		MemberInfoU5BU5D_t4CB6970BB166E8E1CFB06152B2A2284971873053* L_2 = V_0;
@@ -34844,7 +34846,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* InputControlAttribute_g
 {
 	{
 		// public string name { get; set; }
-		String_t* L_0 = __this->___U3CnameU3Ek__BackingField_2;
+		String_t* L_0 = __this->___U3CnameU3Ek__BackingField_3;
 		return L_0;
 	}
 }
@@ -34852,7 +34854,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* InputControlAttribute_g
 {
 	{
 		// public string displayName { get; set; }
-		String_t* L_0 = __this->___U3CdisplayNameU3Ek__BackingField_15;
+		String_t* L_0 = __this->___U3CdisplayNameU3Ek__BackingField_16;
 		return L_0;
 	}
 }
@@ -34860,7 +34862,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* InputControlAttribute_g
 {
 	{
 		// public string shortDisplayName { get; set; }
-		String_t* L_0 = __this->___U3CshortDisplayNameU3Ek__BackingField_16;
+		String_t* L_0 = __this->___U3CshortDisplayNameU3Ek__BackingField_17;
 		return L_0;
 	}
 }
@@ -34868,7 +34870,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* InputControlAttribute_g
 {
 	{
 		// public string layout { get; set; }
-		String_t* L_0 = __this->___U3ClayoutU3Ek__BackingField_0;
+		String_t* L_0 = __this->___U3ClayoutU3Ek__BackingField_1;
 		return L_0;
 	}
 }
@@ -34876,7 +34878,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* InputControlAttribute_g
 {
 	{
 		// public string variants { get; set; }
-		String_t* L_0 = __this->___U3CvariantsU3Ek__BackingField_1;
+		String_t* L_0 = __this->___U3CvariantsU3Ek__BackingField_2;
 		return L_0;
 	}
 }
@@ -34884,7 +34886,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t InputControlAttribute_ge
 {
 	{
 		// public uint offset { get; set; } = InputStateBlock.InvalidOffset;
-		uint32_t L_0 = __this->___U3CoffsetU3Ek__BackingField_12;
+		uint32_t L_0 = __this->___U3CoffsetU3Ek__BackingField_13;
 		return L_0;
 	}
 }
@@ -34892,7 +34894,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t InputControlAttribute_ge
 {
 	{
 		// public uint bit { get; set; } = InputStateBlock.InvalidOffset;
-		uint32_t L_0 = __this->___U3CbitU3Ek__BackingField_11;
+		uint32_t L_0 = __this->___U3CbitU3Ek__BackingField_12;
 		return L_0;
 	}
 }
@@ -34900,7 +34902,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t InputControlAttribute_ge
 {
 	{
 		// public uint sizeInBits { get; set; }
-		uint32_t L_0 = __this->___U3CsizeInBitsU3Ek__BackingField_13;
+		uint32_t L_0 = __this->___U3CsizeInBitsU3Ek__BackingField_14;
 		return L_0;
 	}
 }
@@ -34908,7 +34910,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* InputControlAttribute_g
 {
 	{
 		// public string format { get; set; }
-		String_t* L_0 = __this->___U3CformatU3Ek__BackingField_3;
+		String_t* L_0 = __this->___U3CformatU3Ek__BackingField_4;
 		return L_0;
 	}
 }
@@ -34916,7 +34918,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* InputControlAttribute_g
 {
 	{
 		// public string alias { get; set; }
-		String_t* L_0 = __this->___U3CaliasU3Ek__BackingField_8;
+		String_t* L_0 = __this->___U3CaliasU3Ek__BackingField_9;
 		return L_0;
 	}
 }
@@ -34924,7 +34926,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR StringU5BU5D_t7674CD946EC0CE7B3AE
 {
 	{
 		// public string[] aliases { get; set; }
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0 = __this->___U3CaliasesU3Ek__BackingField_9;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0 = __this->___U3CaliasesU3Ek__BackingField_10;
 		return L_0;
 	}
 }
@@ -34932,7 +34934,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* InputControlAttribute_g
 {
 	{
 		// public string usage { get; set; }
-		String_t* L_0 = __this->___U3CusageU3Ek__BackingField_4;
+		String_t* L_0 = __this->___U3CusageU3Ek__BackingField_5;
 		return L_0;
 	}
 }
@@ -34940,7 +34942,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR StringU5BU5D_t7674CD946EC0CE7B3AE
 {
 	{
 		// public string[] usages { get; set; }
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0 = __this->___U3CusagesU3Ek__BackingField_5;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0 = __this->___U3CusagesU3Ek__BackingField_6;
 		return L_0;
 	}
 }
@@ -34948,7 +34950,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* InputControlAttribute_g
 {
 	{
 		// public string parameters { get; set; }
-		String_t* L_0 = __this->___U3CparametersU3Ek__BackingField_6;
+		String_t* L_0 = __this->___U3CparametersU3Ek__BackingField_7;
 		return L_0;
 	}
 }
@@ -34956,7 +34958,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* InputControlAttribute_g
 {
 	{
 		// public string processors { get; set; }
-		String_t* L_0 = __this->___U3CprocessorsU3Ek__BackingField_7;
+		String_t* L_0 = __this->___U3CprocessorsU3Ek__BackingField_8;
 		return L_0;
 	}
 }
@@ -34964,7 +34966,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* InputControlAttribute_g
 {
 	{
 		// public string useStateFrom { get; set; }
-		String_t* L_0 = __this->___U3CuseStateFromU3Ek__BackingField_10;
+		String_t* L_0 = __this->___U3CuseStateFromU3Ek__BackingField_11;
 		return L_0;
 	}
 }
@@ -34972,7 +34974,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool InputControlAttribute_get_no
 {
 	{
 		// public bool noisy { get; set; }
-		bool L_0 = __this->___U3CnoisyU3Ek__BackingField_17;
+		bool L_0 = __this->___U3CnoisyU3Ek__BackingField_18;
 		return L_0;
 	}
 }
@@ -34980,7 +34982,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool InputControlAttribute_get_do
 {
 	{
 		// public bool dontReset { get; set; }
-		bool L_0 = __this->___U3CdontResetU3Ek__BackingField_19;
+		bool L_0 = __this->___U3CdontResetU3Ek__BackingField_20;
 		return L_0;
 	}
 }
@@ -34988,7 +34990,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool InputControlAttribute_get_sy
 {
 	{
 		// public bool synthetic { get; set; }
-		bool L_0 = __this->___U3CsyntheticU3Ek__BackingField_18;
+		bool L_0 = __this->___U3CsyntheticU3Ek__BackingField_19;
 		return L_0;
 	}
 }
@@ -34996,7 +34998,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t InputControlAttribute_get
 {
 	{
 		// public int arraySize { get; set; }
-		int32_t L_0 = __this->___U3CarraySizeU3Ek__BackingField_14;
+		int32_t L_0 = __this->___U3CarraySizeU3Ek__BackingField_15;
 		return L_0;
 	}
 }
@@ -35004,7 +35006,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* InputControlAttrib
 {
 	{
 		// public object defaultState { get; set; }
-		RuntimeObject* L_0 = __this->___U3CdefaultStateU3Ek__BackingField_20;
+		RuntimeObject* L_0 = __this->___U3CdefaultStateU3Ek__BackingField_21;
 		return L_0;
 	}
 }
@@ -35012,7 +35014,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* InputControlAttrib
 {
 	{
 		// public object minValue { get; set; }
-		RuntimeObject* L_0 = __this->___U3CminValueU3Ek__BackingField_21;
+		RuntimeObject* L_0 = __this->___U3CminValueU3Ek__BackingField_22;
 		return L_0;
 	}
 }
@@ -35020,7 +35022,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* InputControlAttrib
 {
 	{
 		// public object maxValue { get; set; }
-		RuntimeObject* L_0 = __this->___U3CmaxValueU3Ek__BackingField_22;
+		RuntimeObject* L_0 = __this->___U3CmaxValueU3Ek__BackingField_23;
 		return L_0;
 	}
 }
