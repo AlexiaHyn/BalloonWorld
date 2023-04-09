@@ -8631,6 +8631,12 @@ inline ButtonState_tB671FC9C48F167DBC1CDAFEB53C373D8567AE503* List_1_get_Item_m8
 {
 	return ((  ButtonState_tB671FC9C48F167DBC1CDAFEB53C373D8567AE503* (*) (List_1_t6D515F3BEDA0E1BF16E735CE960F740AB8ACBDD3*, int32_t, const RuntimeMethod*))List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38_gshared)(__this, ___0_index, method);
 }
+// UnityEngine.EventSystems.PointerInputModule/MouseButtonEventData UnityEngine.EventSystems.PointerInputModule/ButtonState::get_eventData()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR MouseButtonEventData_t0761D63D3A2B13090597C22DD97597CC7FE4D154* ButtonState_get_eventData_m4767730784143F1DCE06B6138658A31CBC5E155F_inline (ButtonState_tB671FC9C48F167DBC1CDAFEB53C373D8567AE503* __this, const RuntimeMethod* method) ;
+// System.Boolean UnityEngine.EventSystems.PointerInputModule/MouseButtonEventData::PressedThisFrame()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MouseButtonEventData_PressedThisFrame_mEE5DC95537AAEB346C57DCA85917E0701A44388D (MouseButtonEventData_t0761D63D3A2B13090597C22DD97597CC7FE4D154* __this, const RuntimeMethod* method) ;
+// System.Boolean UnityEngine.EventSystems.PointerInputModule/MouseButtonEventData::ReleasedThisFrame()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MouseButtonEventData_ReleasedThisFrame_m5AD4F06D1CA6E0ACD6E84EEFAD4FB112098AFD51 (MouseButtonEventData_t0761D63D3A2B13090597C22DD97597CC7FE4D154* __this, const RuntimeMethod* method) ;
 // UnityEngine.EventSystems.PointerEventData/InputButton UnityEngine.EventSystems.PointerInputModule/ButtonState::get_button()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t ButtonState_get_button_m2210A465432D0F990F2380B6357AD2FBA4A7540D_inline (ButtonState_tB671FC9C48F167DBC1CDAFEB53C373D8567AE503* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.EventSystems.PointerInputModule/ButtonState::.ctor()
@@ -8648,8 +8654,6 @@ inline void List_1_Add_m0BDDD3FAAF7827914A1A2A6A7D24CFA755C8E1E0_inline (List_1_
 }
 // UnityEngine.EventSystems.PointerInputModule/ButtonState UnityEngine.EventSystems.PointerInputModule/MouseState::GetButtonState(UnityEngine.EventSystems.PointerEventData/InputButton)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonState_tB671FC9C48F167DBC1CDAFEB53C373D8567AE503* MouseState_GetButtonState_mD25E7D214B0499DBBE3B3E532CD7085C1A021E51 (MouseState_tCCE70861DE1EEECF949AFE8E2A922541D4E08A09* __this, int32_t ___0_button, const RuntimeMethod* method) ;
-// UnityEngine.EventSystems.PointerInputModule/MouseButtonEventData UnityEngine.EventSystems.PointerInputModule/ButtonState::get_eventData()
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR MouseButtonEventData_t0761D63D3A2B13090597C22DD97597CC7FE4D154* ButtonState_get_eventData_m4767730784143F1DCE06B6138658A31CBC5E155F_inline (ButtonState_tB671FC9C48F167DBC1CDAFEB53C373D8567AE503* __this, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.List`1<UnityEngine.EventSystems.PointerInputModule/ButtonState>::.ctor()
 inline void List_1__ctor_m4E26266DF028F44B765A8CB0C5DA32AA2C04B209 (List_1_t6D515F3BEDA0E1BF16E735CE960F740AB8ACBDD3* __this, const RuntimeMethod* method)
 {
@@ -8805,10 +8809,6 @@ inline bool ExecuteEvents_Execute_TisIUpdateSelectedHandler_tBBACEC3A6478F7DA4B6
 {
 	return ((  bool (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, BaseEventData_tE03A848325C0AE8E76C6CA15FD86395EBF83364F*, EventFunction_1_tB9684C6044C44F9A8317A5E5A9A3C1C0376A4678*, const RuntimeMethod*))ExecuteEvents_Execute_TisRuntimeObject_mDC4455B743BE4A6BA46DD741D0E0AB150FF1209A_gshared)(___0_target, ___1_eventData, ___2_functor, method);
 }
-// System.Boolean UnityEngine.EventSystems.PointerInputModule/MouseButtonEventData::PressedThisFrame()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MouseButtonEventData_PressedThisFrame_mEE5DC95537AAEB346C57DCA85917E0701A44388D (MouseButtonEventData_t0761D63D3A2B13090597C22DD97597CC7FE4D154* __this, const RuntimeMethod* method) ;
-// System.Boolean UnityEngine.EventSystems.PointerInputModule/MouseButtonEventData::ReleasedThisFrame()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MouseButtonEventData_ReleasedThisFrame_m5AD4F06D1CA6E0ACD6E84EEFAD4FB112098AFD51 (MouseButtonEventData_t0761D63D3A2B13090597C22DD97597CC7FE4D154* __this, const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.EventSystems.TouchInputModule::get_forceModuleActive()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TouchInputModule_get_forceModuleActive_m7200F7B6C80EDD69987615B8356B6B2497461FCA_inline (TouchInputModule_t154B7CF685F02D5B9529572B1A96EBD75AAA945C* __this, const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.EventSystems.TouchInputModule::UseFakeInput()
@@ -15768,7 +15768,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReflectionMethodsCache__ctor_m2BBCC7AC45
 		L_8 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_7, NULL);
 		NullCheck(L_8);
 		Type_t* L_9;
-		L_9 = VirtualFuncInvoker0< Type_t* >::Invoke(115 /* System.Type System.Type::MakeByRefType() */, L_8);
+		L_9 = VirtualFuncInvoker0< Type_t* >::Invoke(117 /* System.Type System.Type::MakeByRefType() */, L_8);
 		NullCheck(L_6);
 		ArrayElementTypeCheck (L_6, L_9);
 		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(1), (Type_t*)L_9);
@@ -22992,6 +22992,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR BaseInputModule_tF3B7C22AF1419B2AC9ECE6589357
 		NullCheck(L_0);
 		BaseInputModule_tF3B7C22AF1419B2AC9ECE6589357DC1B88ED96B1* L_1;
 		L_1 = EventSystem_get_currentInputModule_m30559FCECCCE1AAD97D801968B8BD1C483FBF7AC_inline(L_0, NULL);
+		return L_1;
+	}
+}
+// UnityEngine.GameObject UnityEngine.EventSystems.BaseEventData::get_selectedObject()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* BaseEventData_get_selectedObject_m0642DE5E08D7CCC49C67D66B296EEE060E357CE1 (BaseEventData_tE03A848325C0AE8E76C6CA15FD86395EBF83364F* __this, const RuntimeMethod* method) 
+{
+	{
+		// get { return m_EventSystem.currentSelectedGameObject; }
+		EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* L_0 = __this->___m_EventSystem_1;
+		NullCheck(L_0);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1;
+		L_1 = EventSystem_get_currentSelectedGameObject_mD606FFACF3E72755298A523CBB709535CF08C98A_inline(L_0, NULL);
 		return L_1;
 	}
 }
@@ -30884,6 +30896,146 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ButtonState__ctor_m4D7C25C0E1FC598646FFB
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// System.Boolean UnityEngine.EventSystems.PointerInputModule/MouseState::AnyPressesThisFrame()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MouseState_AnyPressesThisFrame_m4887FF61D58D641496B95C83710C8A4E841970F3 (MouseState_tCCE70861DE1EEECF949AFE8E2A922541D4E08A09* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_m233342468962DDEB9AF56781CA53376E97591CA4_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_m8ABD0D7036E193AF7F9275ABE1630C49E5002A24_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	{
+		// var trackedButtonsCount = m_TrackedButtons.Count;
+		List_1_t6D515F3BEDA0E1BF16E735CE960F740AB8ACBDD3* L_0 = __this->___m_TrackedButtons_0;
+		NullCheck(L_0);
+		int32_t L_1;
+		L_1 = List_1_get_Count_m233342468962DDEB9AF56781CA53376E97591CA4_inline(L_0, List_1_get_Count_m233342468962DDEB9AF56781CA53376E97591CA4_RuntimeMethod_var);
+		V_0 = L_1;
+		// for (int i = 0; i < trackedButtonsCount; i++)
+		V_1 = 0;
+		goto IL_002e;
+	}
+
+IL_0010:
+	{
+		// if (m_TrackedButtons[i].eventData.PressedThisFrame())
+		List_1_t6D515F3BEDA0E1BF16E735CE960F740AB8ACBDD3* L_2 = __this->___m_TrackedButtons_0;
+		int32_t L_3 = V_1;
+		NullCheck(L_2);
+		ButtonState_tB671FC9C48F167DBC1CDAFEB53C373D8567AE503* L_4;
+		L_4 = List_1_get_Item_m8ABD0D7036E193AF7F9275ABE1630C49E5002A24(L_2, L_3, List_1_get_Item_m8ABD0D7036E193AF7F9275ABE1630C49E5002A24_RuntimeMethod_var);
+		NullCheck(L_4);
+		MouseButtonEventData_t0761D63D3A2B13090597C22DD97597CC7FE4D154* L_5;
+		L_5 = ButtonState_get_eventData_m4767730784143F1DCE06B6138658A31CBC5E155F_inline(L_4, NULL);
+		NullCheck(L_5);
+		bool L_6;
+		L_6 = MouseButtonEventData_PressedThisFrame_mEE5DC95537AAEB346C57DCA85917E0701A44388D(L_5, NULL);
+		if (!L_6)
+		{
+			goto IL_002a;
+		}
+	}
+	{
+		// return true;
+		return (bool)1;
+	}
+
+IL_002a:
+	{
+		// for (int i = 0; i < trackedButtonsCount; i++)
+		int32_t L_7 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_7, 1));
+	}
+
+IL_002e:
+	{
+		// for (int i = 0; i < trackedButtonsCount; i++)
+		int32_t L_8 = V_1;
+		int32_t L_9 = V_0;
+		if ((((int32_t)L_8) < ((int32_t)L_9)))
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		// return false;
+		return (bool)0;
+	}
+}
+// System.Boolean UnityEngine.EventSystems.PointerInputModule/MouseState::AnyReleasesThisFrame()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MouseState_AnyReleasesThisFrame_m4FBA37A12735418AD0970F11BC44850517B05E93 (MouseState_tCCE70861DE1EEECF949AFE8E2A922541D4E08A09* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_m233342468962DDEB9AF56781CA53376E97591CA4_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_m8ABD0D7036E193AF7F9275ABE1630C49E5002A24_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	{
+		// var trackedButtonsCount = m_TrackedButtons.Count;
+		List_1_t6D515F3BEDA0E1BF16E735CE960F740AB8ACBDD3* L_0 = __this->___m_TrackedButtons_0;
+		NullCheck(L_0);
+		int32_t L_1;
+		L_1 = List_1_get_Count_m233342468962DDEB9AF56781CA53376E97591CA4_inline(L_0, List_1_get_Count_m233342468962DDEB9AF56781CA53376E97591CA4_RuntimeMethod_var);
+		V_0 = L_1;
+		// for (int i = 0; i < trackedButtonsCount; i++)
+		V_1 = 0;
+		goto IL_002e;
+	}
+
+IL_0010:
+	{
+		// if (m_TrackedButtons[i].eventData.ReleasedThisFrame())
+		List_1_t6D515F3BEDA0E1BF16E735CE960F740AB8ACBDD3* L_2 = __this->___m_TrackedButtons_0;
+		int32_t L_3 = V_1;
+		NullCheck(L_2);
+		ButtonState_tB671FC9C48F167DBC1CDAFEB53C373D8567AE503* L_4;
+		L_4 = List_1_get_Item_m8ABD0D7036E193AF7F9275ABE1630C49E5002A24(L_2, L_3, List_1_get_Item_m8ABD0D7036E193AF7F9275ABE1630C49E5002A24_RuntimeMethod_var);
+		NullCheck(L_4);
+		MouseButtonEventData_t0761D63D3A2B13090597C22DD97597CC7FE4D154* L_5;
+		L_5 = ButtonState_get_eventData_m4767730784143F1DCE06B6138658A31CBC5E155F_inline(L_4, NULL);
+		NullCheck(L_5);
+		bool L_6;
+		L_6 = MouseButtonEventData_ReleasedThisFrame_m5AD4F06D1CA6E0ACD6E84EEFAD4FB112098AFD51(L_5, NULL);
+		if (!L_6)
+		{
+			goto IL_002a;
+		}
+	}
+	{
+		// return true;
+		return (bool)1;
+	}
+
+IL_002a:
+	{
+		// for (int i = 0; i < trackedButtonsCount; i++)
+		int32_t L_7 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_7, 1));
+	}
+
+IL_002e:
+	{
+		// for (int i = 0; i < trackedButtonsCount; i++)
+		int32_t L_8 = V_1;
+		int32_t L_9 = V_0;
+		if ((((int32_t)L_8) < ((int32_t)L_9)))
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		// return false;
+		return (bool)0;
+	}
+}
 // UnityEngine.EventSystems.PointerInputModule/ButtonState UnityEngine.EventSystems.PointerInputModule/MouseState::GetButtonState(UnityEngine.EventSystems.PointerEventData/InputButton)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonState_tB671FC9C48F167DBC1CDAFEB53C373D8567AE503* MouseState_GetButtonState_mD25E7D214B0499DBBE3B3E532CD7085C1A021E51 (MouseState_tCCE70861DE1EEECF949AFE8E2A922541D4E08A09* __this, int32_t ___0_button, const RuntimeMethod* method) 
 {
@@ -36753,6 +36905,14 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR EventFunction_1_t37D97D8E7BDC6893
 		return L_0;
 	}
 }
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR MouseButtonEventData_t0761D63D3A2B13090597C22DD97597CC7FE4D154* ButtonState_get_eventData_m4767730784143F1DCE06B6138658A31CBC5E155F_inline (ButtonState_tB671FC9C48F167DBC1CDAFEB53C373D8567AE503* __this, const RuntimeMethod* method) 
+{
+	{
+		// get { return m_EventData; }
+		MouseButtonEventData_t0761D63D3A2B13090597C22DD97597CC7FE4D154* L_0 = __this->___m_EventData_1;
+		return L_0;
+	}
+}
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t ButtonState_get_button_m2210A465432D0F990F2380B6357AD2FBA4A7540D_inline (ButtonState_tB671FC9C48F167DBC1CDAFEB53C373D8567AE503* __this, const RuntimeMethod* method) 
 {
 	{
@@ -36780,14 +36940,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ButtonState_set_eventData_mA
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_EventData_1), (void*)L_0);
 		// set { m_EventData = value; }
 		return;
-	}
-}
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR MouseButtonEventData_t0761D63D3A2B13090597C22DD97597CC7FE4D154* ButtonState_get_eventData_m4767730784143F1DCE06B6138658A31CBC5E155F_inline (ButtonState_tB671FC9C48F167DBC1CDAFEB53C373D8567AE503* __this, const RuntimeMethod* method) 
-{
-	{
-		// get { return m_EventData; }
-		MouseButtonEventData_t0761D63D3A2B13090597C22DD97597CC7FE4D154* L_0 = __this->___m_EventData_1;
-		return L_0;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool EventSystem_get_isFocused_mB0BB5BE03F7203A06D2F351ACD28BA177079104A_inline (EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* __this, const RuntimeMethod* method) 
