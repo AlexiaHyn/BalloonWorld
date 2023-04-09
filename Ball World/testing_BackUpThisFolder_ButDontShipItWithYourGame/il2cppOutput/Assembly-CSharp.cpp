@@ -9299,10 +9299,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Balloon_OnTriggerEnter_m797970FE0DE53696
 		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_25 = __this->___pop_sound_8;
 		NullCheck(L_24);
 		AudioSource_PlayOneShot_m098BCAE084AABB128BB19ED805D2D985E7B75112(L_24, L_25, NULL);
-		// if (temp.x < 1 || temp.y < 1 || temp.z < 1) {
+		// if (temp.x < 2 || temp.y < 2 || temp.z < 2) {
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_26 = (&__this->___temp_6);
 		float L_27 = L_26->___x_2;
-		if ((((float)L_27) < ((float)(1.0f))))
+		if ((((float)L_27) < ((float)(2.0f))))
 		{
 			goto IL_00be;
 		}
@@ -9310,7 +9310,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Balloon_OnTriggerEnter_m797970FE0DE53696
 	{
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_28 = (&__this->___temp_6);
 		float L_29 = L_28->___y_3;
-		if ((((float)L_29) < ((float)(1.0f))))
+		if ((((float)L_29) < ((float)(2.0f))))
 		{
 			goto IL_00be;
 		}
@@ -9318,7 +9318,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Balloon_OnTriggerEnter_m797970FE0DE53696
 	{
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_30 = (&__this->___temp_6);
 		float L_31 = L_30->___z_4;
-		if ((!(((float)L_31) < ((float)(1.0f)))))
+		if ((!(((float)L_31) < ((float)(2.0f)))))
 		{
 			goto IL_00ce;
 		}
