@@ -36835,14 +36835,18 @@ struct Spawning_t66D24EEBCFBF4294D5086E1D0C759C21B773B69F  : public MonoBehaviou
 {
 	// UnityEngine.GameObject Spawning::BalloonPrefab
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___BalloonPrefab_4;
-	// System.Int32 Spawning::total
-	int32_t ___total_5;
 	// System.Int32 Spawning::id
 	int32_t ___id_6;
 	// System.Single Spawning::TimeRemaining
 	float ___TimeRemaining_7;
 	// UnityEngine.GameObject Spawning::obj
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___obj_8;
+};
+
+struct Spawning_t66D24EEBCFBF4294D5086E1D0C759C21B773B69F_StaticFields
+{
+	// System.Int32 Spawning::total
+	int32_t ___total_5;
 };
 
 // StartCrashlytics
@@ -44903,7 +44907,7 @@ const Il2CppTypeDefinitionSizes g_typeDefinitionSize6683 = { sizeof(U3CModuleU3E
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize6684;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize6684 = { sizeof(Balloon_t6CB988D52ACA6084C14555D88B6DB582F75902D7), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize6685;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize6685 = { sizeof(Spawning_t66D24EEBCFBF4294D5086E1D0C759C21B773B69F), -1, 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize6685 = { sizeof(Spawning_t66D24EEBCFBF4294D5086E1D0C759C21B773B69F), -1, sizeof(Spawning_t66D24EEBCFBF4294D5086E1D0C759C21B773B69F_StaticFields), 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize6686;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize6686 = { sizeof(DefaultBalloon_t5C17A2142ADCB02B910A8364C3F3ED3D3D86C766), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize6687;

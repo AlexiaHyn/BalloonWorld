@@ -25829,14 +25829,18 @@ struct Spawning_t66D24EEBCFBF4294D5086E1D0C759C21B773B69F  : public MonoBehaviou
 {
 	// UnityEngine.GameObject Spawning::BalloonPrefab
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___BalloonPrefab_4;
-	// System.Int32 Spawning::total
-	int32_t ___total_5;
 	// System.Int32 Spawning::id
 	int32_t ___id_6;
 	// System.Single Spawning::TimeRemaining
 	float ___TimeRemaining_7;
 	// UnityEngine.GameObject Spawning::obj
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___obj_8;
+};
+
+struct Spawning_t66D24EEBCFBF4294D5086E1D0C759C21B773B69F_StaticFields
+{
+	// System.Int32 Spawning::total
+	int32_t ___total_5;
 };
 
 // StartMenu
@@ -30904,7 +30908,7 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6684[4] =
 	static_cast<int32_t>(offsetof(Balloon_t6CB988D52ACA6084C14555D88B6DB582F75902D7, ___SpawningScript_4)),static_cast<int32_t>(offsetof(Balloon_t6CB988D52ACA6084C14555D88B6DB582F75902D7, ___InitialPosition_5)),static_cast<int32_t>(offsetof(Balloon_t6CB988D52ACA6084C14555D88B6DB582F75902D7, ___temp_6)),static_cast<int32_t>(offsetof(Balloon_t6CB988D52ACA6084C14555D88B6DB582F75902D7, ___forceMagnitude_7)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6685[5] = 
 {
-	static_cast<int32_t>(offsetof(Spawning_t66D24EEBCFBF4294D5086E1D0C759C21B773B69F, ___BalloonPrefab_4)),static_cast<int32_t>(offsetof(Spawning_t66D24EEBCFBF4294D5086E1D0C759C21B773B69F, ___total_5)),static_cast<int32_t>(offsetof(Spawning_t66D24EEBCFBF4294D5086E1D0C759C21B773B69F, ___id_6)),static_cast<int32_t>(offsetof(Spawning_t66D24EEBCFBF4294D5086E1D0C759C21B773B69F, ___TimeRemaining_7)),static_cast<int32_t>(offsetof(Spawning_t66D24EEBCFBF4294D5086E1D0C759C21B773B69F, ___obj_8)),};
+	static_cast<int32_t>(offsetof(Spawning_t66D24EEBCFBF4294D5086E1D0C759C21B773B69F, ___BalloonPrefab_4)),static_cast<int32_t>(offsetof(Spawning_t66D24EEBCFBF4294D5086E1D0C759C21B773B69F_StaticFields, ___total_5)),static_cast<int32_t>(offsetof(Spawning_t66D24EEBCFBF4294D5086E1D0C759C21B773B69F, ___id_6)),static_cast<int32_t>(offsetof(Spawning_t66D24EEBCFBF4294D5086E1D0C759C21B773B69F, ___TimeRemaining_7)),static_cast<int32_t>(offsetof(Spawning_t66D24EEBCFBF4294D5086E1D0C759C21B773B69F, ___obj_8)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6689[4] = 
 {
 	static_cast<int32_t>(offsetof(main_t1A11BBC717193895305089E991DE21F2263A0673, ___model_4)),static_cast<int32_t>(offsetof(main_t1A11BBC717193895305089E991DE21F2263A0673, ___objPath_5)),static_cast<int32_t>(offsetof(main_t1A11BBC717193895305089E991DE21F2263A0673, ___error_6)),static_cast<int32_t>(offsetof(main_t1A11BBC717193895305089E991DE21F2263A0673, ___loadedObject_7)),};

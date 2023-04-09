@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class Balloon : MonoBehaviour
 {
     Spawning SpawningScript;
@@ -39,13 +40,14 @@ public class Balloon : MonoBehaviour
             
 
                 temp = gameObject.transform.localScale;
-                float i = .5f;
+                float i = .2f;
                 temp.x -= i;
                 temp.y -= i;
                 temp.z -= i;
 
-                if (temp.x < 0 || temp.y < 0 || temp.z < 0) {
+                if (temp.x < 1 || temp.y < 1 || temp.z < 1) {
                     Destroy(gameObject);
+                    Spawning.decreaseTotal();
                 }
 
                 gameObject.transform.localScale = temp;

@@ -158,7 +158,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5a1f07dc5afe854f9f12a4194aca3fb, type: 3}
   m_Name: Android
   m_EditorClassIdentifier: 
-  features: []
+  features:
+  - {fileID: 2917062822627841508}
+  - {fileID: -6983537147384750278}
+  - {fileID: -3678341098314690016}
+  - {fileID: 2803566820165772430}
+  - {fileID: 6835543263223242436}
+  - {fileID: 8342364312285229912}
+  - {fileID: 4659814251925550857}
+  - {fileID: -626006673745014090}
   m_renderMode: 1
   m_depthSubmissionMode: 0
 --- !u!114 &-626006673745014090
@@ -233,7 +241,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1927c045052a06d49a9b21fdcaa26db6, type: 3}
   m_Name: MetaXRFeature Android
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: MetaXR Feature
   version: 0.0.1
   featureIdInternal: com.meta.openxr.feature.metaxr
@@ -286,7 +294,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1927c045052a06d49a9b21fdcaa26db6, type: 3}
   m_Name: MetaXRFeature Standalone
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: MetaXR Feature
   version: 0.0.1
   featureIdInternal: com.meta.openxr.feature.metaxr

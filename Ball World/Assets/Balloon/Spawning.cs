@@ -5,8 +5,7 @@ using UnityEngine;
 public class Spawning : MonoBehaviour
 {
     public GameObject BalloonPrefab;
-
-    private int total = 100;
+    private static int total = 100;
     private int id = 0;
 
     private float TimeRemaining = 3f;
@@ -65,5 +64,8 @@ public class Spawning : MonoBehaviour
 
     public void Decrement(int amount) {
         total -= amount;
+    }
+    public static void decreaseTotal() {
+        total--;
     }
 }
