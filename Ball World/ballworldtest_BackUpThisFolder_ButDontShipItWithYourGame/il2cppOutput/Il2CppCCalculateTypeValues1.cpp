@@ -30320,8 +30320,14 @@ struct Balloon_t6CB988D52ACA6084C14555D88B6DB582F75902D7  : public MonoBehaviour
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___InitialPosition_5;
 	// UnityEngine.Vector3 Balloon::temp
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___temp_6;
+	// UnityEngine.AudioClip Balloon::myAudioClip
+	AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___myAudioClip_7;
+	// UnityEngine.AudioSource Balloon::audioSource
+	AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* ___audioSource_8;
+	// System.String Balloon::m4aFilePath
+	String_t* ___m4aFilePath_9;
 	// System.Single Balloon::forceMagnitude
-	float ___forceMagnitude_7;
+	float ___forceMagnitude_10;
 };
 
 // UnityEngine.Experimental.XR.Interaction.BasePoseProvider

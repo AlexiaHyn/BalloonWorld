@@ -40,8 +40,13 @@
       "depth": 0,
       "source": "builtin",
       "dependencies": {
+<<<<<<< HEAD
         "com.unity.xr.oculus": "3.0.0",
         "com.unity.xr.openxr": "1.3.1"
+=======
+        "com.unity.xr.oculus": "3.2.3",
+        "com.unity.xr.openxr": "1.7.0"
+>>>>>>> 8037939f9165fe1a3091d397c02a7d57c1932ea5
       }
     },
     "com.unity.ide.rider": {
@@ -220,7 +225,11 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.oculus": {
+<<<<<<< HEAD
       "version": "3.0.2",
+=======
+      "version": "3.2.3",
+>>>>>>> 8037939f9165fe1a3091d397c02a7d57c1932ea5
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -229,7 +238,11 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.openxr": {
+<<<<<<< HEAD
       "version": "1.3.1",
+=======
+      "version": "1.7.0",
+>>>>>>> 8037939f9165fe1a3091d397c02a7d57c1932ea5
       "depth": 1,
       "source": "registry",
       "dependencies": {
